@@ -88,7 +88,8 @@
     border-radius: 10px;
     margin: auto;
     box-shadow: var(--box-shadow);
-    height: 700px;
+    height: 670px;
+    margin-top: 25px;
   }
 
   ul {
@@ -176,4 +177,8 @@
     width: 40px;
     height: 40px;
     border-radius: 7px;
+  }
+
+  .logout:hover {
+    transform: scale(1.04);
   }
