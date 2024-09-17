@@ -10,19 +10,25 @@
   <body>
     <nav>
       <ul>
+        <h1>Company™</h1>
         <li
           ><img src="./svg/dashboard.svg" alt="dashboard icon" /><span
             >Dashboard</span
           ></li
         >
-        <li
+        <li class="dropdown category"
           ><img src="./svg/category.svg" alt="category icon" /><span
             >Category</span
           ></li
         >
-        <li
+        <li class="category dropped-content hidden">HTML</li>
+        <li class="category dropped-content hidden">CSS</li>
+        <li class="category dropped-content hidden">JavaScript</li>
+        <li class="dropdown posts"
           ><img src="./svg/posts.svg" alt="posts icon" /><span>Posts</span></li
         >
+        <li class="posts dropped-content hidden">Public</li>
+        <li class="posts dropped-content hidden">Private</li>
         <li
           ><img src="./svg/analytics.svg" alt="analytics icon" /><span
             >Analytics</span
@@ -31,11 +37,13 @@
         <li
           ><img src="./svg/chart.svg" alt="chart icon" /><span>Chart</span></li
         >
-        <li
+        <li class="dropdown extensions"
           ><img src="./svg/extensions.svg" alt="extensions icon" /><span
             >Extensions</span
           ></li
         >
+        <li class="extensions dropped-content hidden">My Extensions</li>
+        <li class="extensions dropped-content hidden">Marketplace</li>
         <li
           ><img src="./svg/explore.svg" alt="explore icon" /><span
             >Explore</span
@@ -47,6 +55,18 @@
           ></li
         >
       </ul>
+      <div class="user">
+        <img
+          class="headshot"
+          src="./images/HeadshotScaled.jpg"
+          alt="generic headshot of user"
+        />
+        <div class="user-text">
+          <span>Kerry Smith</span>
+          <span>Web Developer</span>
+        </div>
+        <img src="./svg/logout.svg" alt="logout icon" />
+      </div>
     </nav>
   </body>
 </html>
