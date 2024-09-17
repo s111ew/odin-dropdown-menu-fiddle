@@ -1,0 +1,15 @@
+{
+  "name": "odin-dropdown-menu-fiddle",
+  "version": "1.0.0",
+  "description": "Animation design/development for a dropdown menu interaction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.10.0"
+  }
+}
